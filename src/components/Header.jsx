@@ -1,9 +1,12 @@
+import Nav from './Nav';
+
 export default function Header() {
 
     return (
-        <>
-            <h1>Welcome to my portfolio</h1>
-        </>
+        <header>
+            <Nav />
+            <h1 className='absolute top-0 left-0 ml-3 mt-3'>Le portfolio</h1>
+        </header>
 
     );
 }
