@@ -11,18 +11,20 @@ import { Switch, Router, Route } from 'wouter';
 function App() {
 
   return (
-    <>
+    <div className='min-h-screen flex flex-col'>
      <Header />
      <Router>
+        <main className='flex-grow'>
         <Switch>
           <Route path="/" component={Home}/>
           <Route path="/projects" component={Projects}/>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
         </Switch>
+        </main>
       </Router>
       <Footer />
-    </>
+    </div>
   )
 }
 
