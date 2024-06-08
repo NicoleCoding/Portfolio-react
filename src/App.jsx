@@ -1,20 +1,20 @@
-import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import { Switch, Router, Route } from 'wouter';
+import "./App.css";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { Switch, Router, Route } from "wouter";
 
 
 function App() {
 
   return (
-    <div className='min-h-screen flex flex-col'>
+    <div className="min-h-screen flex flex-col">
      <Header />
      <Router>
-        <main className='flex-grow'>
+        <main className="flex-grow pt-16 px-4 md:px-0">
         <Switch>
           <Route path="/" component={Home}/>
           <Route path="/projects" component={Projects}/>

@@ -4,7 +4,7 @@ export default function About() {
         <h2 className="font-bold text-4xl">About</h2>
         <p className="p-3">Here comes stuff about me</p>
         <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-4 rounded-lg mt-16 p-8">
-        <ul flex flex-col items-center>
+        <ul className="flex flex-col items-center">
             <h2 className="font-bold text-2xl pt-5">Skills</h2>
             <li >HTML5</li>
             <li>CSS3</li>
