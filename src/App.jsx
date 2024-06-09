@@ -11,7 +11,7 @@ import { Switch, Router, Route } from "wouter";
 function App() {
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col w-screen">
      <Header />
      <Router>
         <main className="flex-grow pt-16 px-4 md:px-0">

@@ -10,14 +10,18 @@ export default function Home() {
                 </p>
 
             </section>
-            <ul className="bg-gradient-to-r from-teal-200 to-teal-500 p-2 rounded-lg mx-auto w-80 flex flex-col items-center text-center">
+            <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-2 mt-16 rounded-lg w-80 flex flex-col text-center">
+            <ul>
             <h2 className="font-bold text-2xl pt-5">Relevant skillset</h2>
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript</li>
                 <li>React.js</li>
+                <li>UX-design</li>
                 <li><Link href="/about">...and more</Link></li>
             </ul>
+            </section>
+    
 
         </section>
     
