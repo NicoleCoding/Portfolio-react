@@ -13,12 +13,12 @@ export default function Home() {
             <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-2 mt-16 rounded-lg w-80 flex flex-col text-center">
             <ul>
             <h2 className="font-bold text-2xl pt-5">Relevant skillset</h2>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>UX-design</li>
-                <li><Link href="/about">...and more</Link></li>
+                <li className="m-2">HTML5</li>
+                <li className="m-2">CSS3</li>
+                <li className="m-2">JavaScript</li>
+                <li className="m-2">React.js</li>
+                <li className="m-2">UX-design</li>
+                <li className="m-2"><Link href="/about">...and more</Link></li>
             </ul>
             </section>
     
