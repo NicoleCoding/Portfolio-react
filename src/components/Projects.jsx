@@ -1,33 +1,50 @@
 export default function Projects() {
     const projects = [{
-        projectName: "",
-        projectDesc: "",
+        id: "",
+        title: "",
+        description: "",
 
     },
-    {
-        projectName: "",
-        projectDesc: "",
+    {   
+        id: "",
+        title: "",
+        description: "",
 
     },
-    {
-        projectName: "",
-        projectDesc: "",
+    {   
+        id: "",
+        title: "",
+        description: "",
     },
-    {
-        projectName: "",
-        projectDesc: "",
+    {   
+        id: "",
+        title: "",
+        description: "",
     },
-    {
-        projectName: "",
-        projectDesc: "",
+    {   
+        id: "",
+        title: "",
+        description: "",
     }
 ];
 
+const renderProjects = () => {
+    return projects.map(project => (
+        <div key={project.id} className="project">
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+        </div>
+    ));
+
+};
+
 
     return (
-        <section>
+        <section id="projects-display">
             <h2 className="font-bold">Projects</h2>
-            <p>A collection of projects...</p>
+            <div id="projects">
+                {renderProjects()};
+            </div>
         </section>
         
 
