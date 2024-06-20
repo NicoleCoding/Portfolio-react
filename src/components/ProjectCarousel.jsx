@@ -1,5 +1,4 @@
 import Slider from "react-slick";
-import './ProjectCarousel.css';
 
 const projects = [{
     id: "1",
@@ -43,12 +42,12 @@ function ProjectCarousel() {
     };
 
     return (
-        <div className="carousel">
+        <div className="w-4/5 mx-auto p-5">
             <Slider {...settings}>
                 {projects.map(project => (
-                    <div key={project.id} className="project-slide">
-                        <h3>{project.title}</h3>
-                        <p>{project.description}</p>
+                    <div key={project.id} className="text-center">
+                        <h3 className="mb-2 text-2xl">{project.title}</h3>
+                        <p className="text-base text-gray-600">{project.description}</p>
                     </div>
                 ))}
             </Slider>

@@ -6,7 +6,7 @@ export default function Projects() {
 
     return (
         <section id="projects-display">
-            <h2 className="font-bold">Projects</h2>
+            <h2 className="font-bold text-4xl text-teal-500">Projects</h2>
             <ProjectCarousel />
             
         </section>
