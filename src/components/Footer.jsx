@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="">&copy; 2024 NicoleCoding. All rights reserved.</footer>
+        <footer className="m-5">&copy; 2024 NicoleCoding. All rights reserved.</footer>
 
     );
     
