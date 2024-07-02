@@ -3,7 +3,7 @@ export default function About() {
        <section>
         <h2 className="font-bold text-4xl text-teal-500">About</h2>
         <section className="flex flex-col items-center">
-        <p className="p-3 m-2 w-4/5">I am recent graduate in Information architecture with a passion for development of various types of software, especially within the web. Through my degree
+        <p className="p-3 m-2 w-4/5">My name is Nicole and I am recent graduate in Information architecture with a passion for development of various types of software, especially within the web. Through my degree
             I acquired a solid foundation in structuring and designing digital environments. My education has equipped me with a deep understanding of user experience principles, 
             information organization, and the latest web technologies.
         </p>
