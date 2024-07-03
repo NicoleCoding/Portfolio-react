@@ -14,25 +14,24 @@ export default function Home() {
             </div>
             </section>
             <section id="roles" className="flex flex-col m-5 p-5 lg:flex-row justify-center items-stretch gap-40">
-                <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-2 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-center">
-                    <h2 className="text-2xl p-2">Frontend Developer</h2>
-                    <p className="p-2 m-4">With skills in HTML5, CSS3, JavaScript (ES6) and React.js, I am able to develop frontends. In addition to the foundational skills, I have knowledge of various development tools such as Git, Webpack, Vite and npm.
-                        Knowledge of accessibility and web standards ensures that I develop web user interfaces, that are accessible and usable. My knowledge of APIs also help to create usable websites and applications by retrieving various relevant information.
+                <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
+                    <h2 className="text-2xl mb-4 mt-0">Frontend Development</h2>
+                    <p className="p-2 m-0">With skills in HTML5, CSS3, JavaScript (ES6), and React.js, I develop frontends using tools like Git, Webpack, Vite, and npm. 
+                        I ensure accessibility and usability in web interfaces and leverage APIs to create functional websites and applications. Additionally, I can build websites with WordPress.
                     </p>
 
                 </section>
-                <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-2 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-center">
-                    <h2 className="text-2xl p-2">UX-Designer</h2>
-                    <p className="p-2 m-4">As mentioned, I have knowledge of various UX-design principles, which enable me to design usable and great user experiences. Knowledge of tools such as Figma, Adobe XD, Photoshop and Illustrator
-                        help me to design and prototype user experiences. 
+                <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
+                    <h2 className="text-2xl mb-4 mt-0">UX-Design & Research</h2>
+                    <p className="p-2 m-0">I use UX design principles to create great user experiences, backed by research on target users. 
+                        My education covers user personas, storyboards, and user stories, enabling effective UX research. I also use tools like Figma and Photoshop to prototype designs.
                     </p>
 
                 </section>
-                <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-2 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-center">
-                    <h2 className="text-2xl p-2">Content Manager and SEO Strategist</h2>
-                    <p className="p-2 m-4">During my education, I also gained skills in Content Management and SEO. Combined with knowlegde in HTML5, I use SEO-principles to create SEO-strategies
-                        that will make websites easier to find. In addition to SEO, I am able to handle Content Management, where I use principles of Information Architecture to make content understandable
-                        and findable. 
+                <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
+                    <h2 className="text-2xl mb-4 mt-0">Content Management and SEO</h2>
+                    <p className="p-2 m-0">During my education, I gained skills in Content Management and SEO. Using HTML5 and SEO principles, I create strategies for high-ranking, visible websites. 
+                        I apply Information Architecture to make content clear and accessible, and I am proficient with WordPress and adaptable to other CMS platforms.
                     </p>
 
                 </section>
