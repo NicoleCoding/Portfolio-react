@@ -1,7 +1,12 @@
+import { HiOutlineLightBulb } from "react-icons/hi";
+
 export default function About() {
     return (
        <section>
-        <h2 className="font-bold text-4xl text-teal-500">About</h2>
+        <div className="flex items-center justify-center">
+            <h2 className="font-bold text-4xl text-teal-500">About</h2>
+            <HiOutlineLightBulb className="text-teal-500 m-2" size={40}/>
+        </div>
         <section className="flex flex-col items-center">
         <p className="p-3 m-2 w-4/5">My name is Nicole and I am recent graduate in Information architecture with a passion for development of various types of software, especially within the web. Through my degree
             I acquired a solid foundation in structuring and designing digital environments. My education has equipped me with a deep understanding of user experience principles, 
