@@ -16,7 +16,7 @@ export default function Home() {
             <section id="roles" className="flex flex-col m-5 p-5 lg:flex-row justify-center items-stretch gap-40">
                 <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-2 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-center">
                     <h2 className="text-2xl p-2">Frontend Developer</h2>
-                    <p className="p-2 m-4">With skills in HTML5, CSS3 and React.js, I am able to develop frontends. In addition to the foundational skills, I have knowledge of various development tools such as Git, Webpack, Vite and npm.
+                    <p className="p-2 m-4">With skills in HTML5, CSS3, JavaScript (ES6) and React.js, I am able to develop frontends. In addition to the foundational skills, I have knowledge of various development tools such as Git, Webpack, Vite and npm.
                         Knowledge of accessibility and web standards ensures that I develop web user interfaces, that are accessible and usable. My knowledge of APIs also help to create usable websites and applications by retrieving various relevant information.
                     </p>
 
