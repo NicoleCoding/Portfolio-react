@@ -14,7 +14,7 @@ function App() {
     <div className="min-h-screen flex flex-col w-screen">
      <Header />
      <Router>
-        <main className="flex-grow pt-16 px-4 md:px-0">
+        <main className="flex-grow pt-6 px-4 md:px-0">
         <Switch>
           <Route path="/" component={Home}/>
           <Route path="/projects" component={Projects}/>
