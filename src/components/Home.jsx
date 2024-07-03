@@ -13,22 +13,22 @@ export default function Home() {
                 <button className="bg-teal-200"><Link className="py-1 px-2 text-black hover:text-teal-500" href="/projects">See my projects</Link></button>
             </div>
             </section>
-            <section id="roles" className="flex flex-col m-x p-1 lg:flex-row justify-center items-stretch gap-10">
-                <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
+            <section id="roles" className="flex flex-col m-x p-1 lg:flex-row justify-center items-stretch gap-20">
+                <section className="shadow-lg p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
                     <h2 className="text-2xl mb-4 mt-0">Frontend Development</h2>
                     <p className="p-2 m-0">With skills in HTML5, CSS3, JavaScript (ES6), and React.js, I develop frontends using tools like Git, Webpack, Vite, and npm. 
                         I ensure accessibility and usability in web interfaces and leverage APIs to create functional websites and applications. Additionally, I can build websites with WordPress.
                     </p>
 
                 </section>
-                <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
+                <section className="shadow-lg p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
                     <h2 className="text-2xl mb-4 mt-0">UX-Design & Research</h2>
                     <p className="p-2 m-0">I use UX design principles to create great user experiences, backed by research on target users. 
                         My education covers user personas, storyboards, and user stories, enabling effective UX research. I also use tools like Figma and Photoshop to prototype designs.
                     </p>
 
                 </section>
-                <section className="bg-gradient-to-r from-teal-200 to-teal-500 p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
+                <section className="shadow-lg p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
                     <h2 className="text-2xl mb-4 mt-0">Content Management</h2>
                     <p className="p-2 m-0">During my education, I gained skills in Content Management and SEO. Using HTML5 and SEO principles, I create strategies for high-ranking, visible websites. 
                         I apply Information Architecture to make content clear and accessible, and I am proficient with WordPress and adaptable to other CMS platforms.
