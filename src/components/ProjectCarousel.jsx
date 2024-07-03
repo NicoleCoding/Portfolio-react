@@ -35,7 +35,7 @@ function ProjectCarousel() {
             <Slider {...settings}>
                 {projects.map(project => (
                     <div key={project.id} className="text-center">
-                        <h3 className="mb-2 p-2 text-2xl">{project.title}</h3>
+                        <h3 className="mb-2 p-2 text-2xl font-semibold">{project.title}</h3>
                         <p className="text-base text-gray-600 p-2">{project.description}</p>
                         <img src={project.prototypeimage} alt={project.title} width="1000rem" className="mx-auto"
                          onError={(e) => {
@@ -44,8 +44,8 @@ function ProjectCarousel() {
                           }}
                         />
                         <div id="links" className="flex flex-col">
-                            <a className="p-2" href={project.prototypelink}>Link to the prototype</a>
-                            <a className="p-2" href={project.codelink}>Link to the code</a>
+                            <a className="p-2 hover:text-teal-400" href={project.prototypelink}>Link to the prototype</a>
+                            <a className="p-2 hover:text-teal-400" href={project.codelink}>Link to the code</a>
                         </div>
                     </div>
                 ))}

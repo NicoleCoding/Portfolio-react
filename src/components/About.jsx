@@ -15,12 +15,11 @@ export default function About() {
                 <p className="p-3 m-2 w-4/5">Bringing skills and enthusiasm to a dynamic team, where I can contribute to creating exceptional user experiences and innovative web solutions, is something I look forward to.
                     My goal is to work in a role, that allows me to combine my design capabilities with my technical knowledge to solve real-world problems and enhance user satisfaction.</p>
             </section>
-            <section className="relative bg-skills-background bg-no-repeat bg-cover p-4 mt-16 p-8">
+            <section className="relative bg-skills-background bg-no-repeat bg-cover mt-16 p-8">
                 <div className="absolute inset-0 bg-black opacity-45"></div>
                 <div className="relative text-white z-10">
                     <p className="text-stroke-black text-stroke-1">Throughout my academic journey and through additional self-studies, I have developed a diverse skill set, which includes:</p>
                     <ul className="flex flex-col items-center text-white">
-                        <h2 className="font-bold text-2xl pt-5">Skills</h2>
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>JavaScript</li>
