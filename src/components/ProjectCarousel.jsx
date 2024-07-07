@@ -6,7 +6,7 @@ const projects = [{
     description: "The project aimed to create a specific application for a specific use case scenario/persona. The application was developed using React.js for structure and functionality, Bootstrap for consistent styling.",
     prototypeimage: "/prototype-hotel-app.PNG",
     prototypelink: "https://xd.adobe.com/view/81d58dae-96aa-461d-a13b-aad454e05284-d486/?fullscreen",
-    codelink: ""
+    codelink: "https://github.com/PalmBookingAgency/HotelApp"
 },
 {   
     id: "2",
@@ -18,7 +18,7 @@ const projects = [{
 }
 ];
 
-function ProjectCarousel() {
+export default function ProjectCarousel() {
     const settings = {
         dots: true,
         infinite: true,
@@ -53,5 +53,3 @@ function ProjectCarousel() {
         </div>
     )
 }
-
-export default ProjectCarousel;
