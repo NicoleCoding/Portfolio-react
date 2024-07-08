@@ -33,7 +33,6 @@ export default function Home() {
                     <p className="p-2 m-0">During my education, I gained skills in Content Management and SEO. Using HTML5 and SEO principles, I create strategies for high-ranking, visible websites. 
                         I apply Information Architecture to make content clear and accessible, and I am proficient with WordPress and adaptable to other CMS platforms.
                     </p>
-
                 </section>
             </section>
     

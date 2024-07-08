@@ -20,7 +20,7 @@ export default function ContactForm() {
     }
 
     return (
-        <form className="bg-gray-200 max-w-md mx-auto" onSubmit={handleSubmit}>
+        <form className="bg-teal-50 max-w-md mx-auto p-10 rounded-lg" onSubmit={handleSubmit}>
             <Input
                 type="text"
                 name="name"
@@ -36,14 +36,14 @@ export default function ContactForm() {
                 placeholder="Enter your email"
             />
             <Input
-                type="text"
+                type="textarea"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Enter your message"
-                row={4}
+                rows={10}
             />
-            <button type="submit">Submit</button>
+            <button className="bg-teal-200" type="submit">Submit</button>
 
         </form>
 
