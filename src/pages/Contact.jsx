@@ -1,5 +1,5 @@
 import { PiEnvelope } from "react-icons/pi";
-import ContactForm from "./ContactForm";
+import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
     return (

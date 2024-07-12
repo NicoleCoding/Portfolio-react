@@ -1,4 +1,4 @@
-import ProjectCarousel from "./ProjectCarousel";
+import ProjectCarousel from "../components/ProjectCarousel";
 import { LuRocket } from "react-icons/lu";
 
 export default function Projects() {
