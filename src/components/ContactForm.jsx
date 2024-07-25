@@ -20,7 +20,7 @@ export default function ContactForm() {
     }
 
     return (
-        <form className="bg-teal-50 max-w-md mx-auto p-10 rounded-lg" onSubmit={handleSubmit}>
+        <form className="bg-contact-form-background bg-no-repeat bg-cover max-w-md mx-auto p-10 rounded-lg" onSubmit={handleSubmit}>
             <Input
                 type="text"
                 name="name"

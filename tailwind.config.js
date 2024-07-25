@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         'hero-background': "url('./assets/Galaxy.jpeg')",
         'skills-background': "url('./assets/Space.jpeg')",
+        'contact-form-background': "url('./assets/Supernova.jpeg')"
       },
   },
   plugins: [],
