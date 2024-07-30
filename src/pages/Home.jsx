@@ -2,12 +2,12 @@ import { Link } from "wouter";
 
 export default function Home() {
     return (
-        <section className="container mx-auto p-4 md:p-8 max-w-screen-4xl">
-            <section id="hero" className="relative flex flex-col md:flex-col justify-between items-center bg-hero-background bg-no-repeat bg-cover p-5 text-white rounded-lg h-25 bg-center">
+        <section className="container mx-auto p-4 md:p-8 max-w-screen-4xl font-custom">
+            <section id="hero" className="relative flex flex-col md:flex-col justify-between items-center bg-hero-background bg-no-repeat bg-cover text-white rounded-lg h-25 bg-center aspect-square sm:aspect-auto overflow-hidden">
             <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
             <div className="relative z-8 text-white p-8 flex flex-col items-center justify-center h-full">
-            <h2 className="font-bold text-4xl text-teal-500">Creating clean, usable user interfaces with creativity and Information Architecture expertise</h2>
-                <p className="p-3 text-xl">Welcome to my portfolio! I am an aspiring frontend developer with UX skills. With a solid foundation in HTML, CSS and JavaScript, in combination with my knowledge of various
+            <h2 className="font-bold text-3xl sm:text-4xl text-teal-500 text-center">Creating clean, usable user interfaces with creativity and Information Architecture expertise</h2>
+                <p className="p-3 text-base sm:text-xl text-center">Welcome to my portfolio! I am an aspiring frontend developer with UX skills. With a solid foundation in HTML, CSS and JavaScript, in combination with my knowledge of various
                     UX principles, I aim to create amazing user experiences. Always learning and keen to sharpen my expertise in various technologies, since tech is always evolving.
                 </p>
                 <button className="bg-teal-200"><Link className="py-1 px-2 text-black hover:text-teal-500" href="/projects">See my projects</Link></button>
