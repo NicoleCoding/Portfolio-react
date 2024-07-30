@@ -4,7 +4,7 @@ export default function Nav() {
     const [location] = useLocation();
 
     return (
-        <nav className="flex flex-col md:flex-row items-center">
+        <nav className="flex flex-col md:flex-row items-center font-custom">
             <ul className="flex flex-col md:flex-row md:items-center justify-end">
                 <li className="mb-2 md:mb-0"><Link className={`block py-2 px-4 rounded-lg ${
                             location === "/" ? "text-teal-500" : "text-white"
