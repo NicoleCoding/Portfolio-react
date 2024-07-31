@@ -31,7 +31,7 @@ export default function ProjectCarousel() {
     };
 
     return (
-        <div className="w-4/5 mx-auto p-7">
+        <div className="w-4/5 mx-auto pb-10">
             <Slider {...settings}>
                 {projects.map(project => (
                     <div key={project.id} className="text-center">
