@@ -13,6 +13,9 @@ export default function Nav() {
                             location === "/projects" ? "text-teal-500" : "text-black"
                         } hover:bg-gray-700 hover:text-teal-400`} href="/projects">Projects</Link></li>
                 <li className="mb-2 md:mb-0"><Link className={`block py-2 px-4 rounded-lg ${
+                            location === "/blog" ? "text-teal-500" : "text-black"
+                        } hover:bg-gray-700 hover:text-teal-400`} href="/blog">Blog</Link></li>
+                <li className="mb-2 md:mb-0"><Link className={`block py-2 px-4 rounded-lg ${
                             location === "/about" ? "text-teal-500" : "text-black"
                         } hover:bg-gray-700 hover:text-teal-400`} href="/about">About</Link></li>
                 <li className="mb-2 md:mb-0"><Link className={`block py-2 px-4 rounded-lg ${
