@@ -1,11 +1,15 @@
-# Portfolio site
+# Portfolio
 
-Portfolio created with React.js and Tailwind.css. Work in progress. 
+# Overview
+This is my personal portfolio website created with React.js and Tailwind CSS. The portfolio showcases my projects, skills and provides a presentation of myself as a web developer. 
+I am continually updating and improving it.
+
+# Features
+- Project showcase: Projects are shown in a responsive carousel.
+- Modern design: Built with Tailwind CSS, the design of the portfolio is clean and responsive.
+- Responsive layout: The portfolio is optimized for various devices and screens.
+- Call to action: A button that leads to the project showcase.
+- Social media: Links to relevant social media.
 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
