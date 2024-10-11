@@ -5,7 +5,7 @@ const projects = [{
     title: "Hotel booking application - Palm Booking Agency",
     description: "The project aimed to create a specific application for a specific use case scenario/persona. The application was developed using React.js for structure and functionality, Bootstrap for consistent styling.",
     projectImage: "/prototype-hotel-app.PNG",
-    prototypelink: "https://xd.adobe.com/view/81d58dae-96aa-461d-a13b-aad454e05284-d486/?fullscreen",
+    liveVersion: "",
     codelink: "https://github.com/PalmBookingAgency/HotelApp"
 },
 {   
@@ -13,7 +13,7 @@ const projects = [{
     title: "Informative application about climate change - KlimatKoll",
     description: "The project was about creating an informative application for a specific target audience. The application contains charts which were created with the help of the Recharts library. React.js and Bootstrap were used in the development of the application.",
     projectImage: "/prototype-climate-app.PNG",
-    prototypelink: "https://www.figma.com/proto/i4azN0R2dxPi7F37P1gdhf/Personas%2C-user-stories%2C-user-journeys%2C-UML-diagram%2C-task-analysis%2C-lo-fi-prototype%2C-hi-fi-prototype?node-id=431-648&t=kNw0GHv3cTSrTmVk-1&scaling=scale-down&content-scaling=fixed&page-id=432%3A221",
+    liveVersion: "",
     codelink: "https://github.com/KlimatKoll/KlimatKoll-App"
 },
 {
@@ -21,6 +21,7 @@ const projects = [{
     title: "Library App - BookVault",
     description: "This is a React-based web application, which allows users to search for books, and also add books to their own collection. In the collection, users can toggle the read status and also remove books. The application gives users the opportunity to find books that they want to read and add them to a collection in case they want to read a specific book or specific books.",
     projectImage: "/library-app-img.PNG",
+    liveVersion: "",
     codeLink: "https://github.com/NicoleCoding/BookVault"
 
 }
@@ -52,8 +53,8 @@ export default function ProjectCarousel() {
                           }}
                         />
                         <div id="links" className="flex flex-col">
-                            <a className="p-2 hover:text-teal-400" href={project.prototypelink}>Link to the prototype</a>
-                            <a className="p-2 hover:text-teal-400" href={project.codelink}>Link to the code</a>
+                            <a className="p-2 hover:text-teal-400" href={project.liveVersion}>View the live version</a>
+                            <a className="p-2 hover:text-teal-400" href={project.codelink}>View the code</a>
                         </div>
                     </div>
                 ))}

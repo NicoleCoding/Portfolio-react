@@ -23,15 +23,15 @@ export default function Home() {
                 </section>
                 <section className="shadow-lg p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
                     <h3 className="text-2xl mb-4 mt-0">UX-Design & Research</h3>
-                    <p className="p-2 m-0">I use UX design principles to create great user experiences, backed by research on target users. 
+                    <p className="p-2 m-0">UX design principles are used to create great user experiences, backed by research on target users. 
                         My education covers user personas, storyboards, and user stories, enabling effective UX research. I also use tools like Figma and Photoshop to prototype designs.
                     </p>
 
                 </section>
                 <section className="shadow-lg p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
                     <h3 className="text-2xl mb-4 mt-0">Content Management</h3>
-                    <p className="p-2 m-0">During my education, I gained skills in Content Management and SEO. Using HTML5 and SEO principles, I create strategies for high-ranking, visible websites. 
-                        I apply Information Architecture to make content clear and accessible, and I am proficient with WordPress and adaptable to other CMS platforms.
+                    <p className="p-2 m-0">In addition I posess skills in Content Management and SEO. Using HTML5 and SEO principles, I create strategies for high-ranking, visible websites. 
+                        I apply Information Architecture to make content clear and accessible.
                     </p>
                 </section>
             </section>
