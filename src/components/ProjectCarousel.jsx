@@ -52,7 +52,7 @@ export default function ProjectCarousel() {
                             e.target.style.display = 'none'; // Hide broken image
                           }}
                         />
-                        <div id="links" className="flex flex-col">
+                        <div id="links" className="flex flex-row justify-center pt-4">
                             <a className="p-2 hover:text-teal-400" href={project.liveVersion}>View the live version</a>
                             <a className="p-2 hover:text-teal-400" href={project.codelink}>View the code</a>
                         </div>

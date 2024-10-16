@@ -43,7 +43,7 @@ export default function ContactForm() {
                 placeholder="Enter your message"
                 rows={10}
             />
-            <button className="bg-teal-200" type="submit">Submit</button>
+            <button className="bg-teal-200 w-80" type="submit">Submit</button>
 
         </form>
 

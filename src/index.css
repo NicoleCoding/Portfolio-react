@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'DancingScript-Bold';
+  src: url('./assets/DancingScript-Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: bold;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

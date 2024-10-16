@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ['Open Sans', 'sans-serif'], // You can give it any name like 'custom'
+        custom: ['Open Sans', 'sans-serif'], 
+        logo: ['DancingScript-Bold', 'cursive']
       },
       backgroundImage: {
         'hero-background': "url('./assets/Galaxy.jpeg')",
