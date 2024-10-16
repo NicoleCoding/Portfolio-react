@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Input from "./Input";
+import { motion } from "framer-motion";
+import Button from "./Button";
 
 export default function ContactForm() {
     const [formData, setFormData] = useState({
@@ -20,7 +22,13 @@ export default function ContactForm() {
     }
 
     return (
-        <form className="bg-contact-form-background bg-no-repeat bg-cover max-w-md mx-auto p-10 rounded-lg" onSubmit={handleSubmit}>
+        <motion.form
+            className="bg-contact-form-background bg-no-repeat bg-cover max-w-md mx-auto p-10 rounded-lg"
+            onSubmit={handleSubmit}
+            initial={{ opacity: 0, x: -20 }} 
+            animate={{ opacity: 1, x: 0 }} 
+            transition={{ duration: 0.4, ease: "easeIn" }} 
+        >
             <Input
                 type="text"
                 name="name"
@@ -43,9 +51,7 @@ export default function ContactForm() {
                 placeholder="Enter your message"
                 rows={10}
             />
-            <button className="bg-teal-200 w-80" type="submit">Submit</button>
-
-        </form>
-
+            <Button className="bg-teal-200 w-80" type="submit" text="Submit"></Button>
+        </motion.form>
     );
 }

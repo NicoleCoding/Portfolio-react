@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import Button from "../components/Button";
 
 export default function Home() {
     return (
@@ -10,7 +11,9 @@ export default function Home() {
                 <p className="p-3 text-base sm:text-xl text-center">Welcome to my portfolio! I am an aspiring frontend developer with UX skills. With a solid foundation in HTML, CSS and JavaScript, in combination with my knowledge of various
                     UX principles, I aim to create amazing user experiences. Always learning and keen to sharpen my expertise in various technologies, since tech is always evolving.
                 </p>
-                <button className="bg-teal-200"><Link className="py-1 px-2 text-black hover:text-teal-500" href="/projects">See my projects</Link></button>
+                <Link className="py-1 px-2 text-black hover:text-teal-500" href="/projects">
+                    <Button className="bg-teal-200" text="See my projects"></Button>
+                </Link>
             </div>
             </section>
             <section id="roles" className="flex flex-col m-x p-1 lg:flex-row justify-center items-stretch gap-20">

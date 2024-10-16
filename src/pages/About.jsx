@@ -17,8 +17,8 @@ export default function About() {
                 <p className="m-3 w-4/5 text-left leading-relaxed pb-10">Bringing skills and enthusiasm to a dynamic team, where I can contribute to creating exceptional user experiences and innovative web solutions, is something I look forward to.
                     My goal is to work in a role, that allows me to combine my design capabilities with my technical knowledge to solve real-world problems and enhance user experiences.</p>
             </section>
-            <section className="relative bg-skills-background bg-no-repeat bg-cover m-4 sm:mx-auto p-4 md:p-8 max-w-screen-sm sm:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
-                <div className="absolute inset-0 bg-black opacity-45"></div>
+            <section className="relative bg-skills-background bg-no-repeat bg-cover m-4 sm:mx-auto p-4 md:p-8 max-w-screen-sm sm:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl rounded-lg">
+                <div className="absolute inset-0 bg-black opacity-45 rounded-lg"></div>
                 <div className="relative text-white z-10">
                     <p className="text-stroke-black text-stroke-1">Throughout my academic journey and through self-studies, I have developed a diverse skill set, which includes:</p>
                     <ul className="flex flex-col items-center text-white">
