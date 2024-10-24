@@ -38,8 +38,8 @@ export default function Project() {
 
     return (
         <div className="p-5 font-custom">
-                <Link href="/projects">
-                <Button text="Go back to projects"></Button>
+                <Link href="/projects" className="py-1 px-2 text-black hover:text-teal-500">
+                    <Button text="Go back to projects" className="bg-teal-200"></Button>
                 </Link>
                 <h2 className="font-bold text-4xl text-teal-500 m-2">{project.title}</h2>
                 <p className="text-base text-gray-600 p-2">{project.description}</p>
