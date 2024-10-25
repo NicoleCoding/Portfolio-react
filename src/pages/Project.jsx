@@ -8,7 +8,7 @@ const projectData = {
         description: "The project aimed to create a specific application for a specific use case scenario/persona. The application was developed using React.js for structure and functionality, Bootstrap for consistent styling.",
         projectImage: "/prototype-hotel-app.PNG",
         liveVersion: "",
-        codelink: "https://github.com/PalmBookingAgency/HotelApp",
+        codeLink: "https://github.com/PalmBookingAgency/HotelApp",
     },
     "2": {
         title: "Informative application about climate change - KlimatKoll",
@@ -16,7 +16,7 @@ const projectData = {
         description: "The project was about creating an informative application for a specific target audience. The application contains charts which were created with the help of the Recharts library. React.js and Bootstrap were used in the development of the application.",
         projectImage: "/prototype-climate-app.PNG",
         liveVersion: "",
-        codelink: "https://github.com/KlimatKoll/KlimatKoll-App",
+        codeLink: "https://github.com/KlimatKoll/KlimatKoll-App",
 
     },
     "3": { 
@@ -57,12 +57,12 @@ export default function Project() {
                     }}
                 />
             <div id="links" className="flex justify-center pt-4 space-x-4">
-                <Link href={project.liveVersion} className="py-1 px-2 text-black hover:text-teal-500">
+                <a href={project.liveVersion} className="py-1 px-2 text-black hover:text-teal-500">
                     <Button text="View live version" className="bg-teal-200"></Button>
-                </Link>
-                <Link href={project.codelink} className="py-1 px-2 text-black hover:text-teal-500">
+                </a>
+                <a href={project.codeLink} className="py-1 px-2 text-black hover:text-teal-500">
                     <Button text="View code" className="bg-teal-200"></Button>
-                </Link>
+                </a>
             </div>
             </section>
             <section className="w-full md:w-5/12 text-center md:text-left mt-4 md:mt-0">
