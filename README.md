@@ -6,6 +6,7 @@ I am continually updating and improving it.
 
 # Features
 - Project showcase: Projects are shown in a responsive carousel.
+- Each project has a page with further details.
 - Modern design: Built with Tailwind CSS, the design of the portfolio is clean and responsive.
 - Responsive layout: The portfolio is optimized for various devices and screens.
 - Call to action: A button that leads to the project showcase.
