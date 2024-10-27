@@ -4,17 +4,19 @@ import Button from "../components/Button";
 export default function Home() {
     return (
         <section className="container mx-auto p-4 md:p-8 max-w-screen-4xl font-custom">
-            <section id="hero" className="p-0 sm:p-2 relative flex flex-col md:flex-col justify-between items-center bg-hero-background bg-no-repeat bg-cover text-white rounded-lg h-25 bg-center aspect-square sm:aspect-auto overflow-hidden">
-            <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
-            <div className="relative z-8 text-white p-8 flex flex-col items-center justify-center h-full">
-            <h2 className="font-bold text-2xl sm:text-4xl text-teal-500 text-center">Creating clean, usable user interfaces with creativity and Information Architecture expertise</h2>
-                <p className="p-3 text-base sm:text-xl text-center">Welcome to my portfolio! I am an aspiring frontend developer with UX skills. With a solid foundation in HTML, CSS and JavaScript, in combination with my knowledge of various
-                    UX principles, I aim to create amazing user experiences. Always learning and keen to sharpen my expertise in various technologies, since tech is always evolving.
+            <section id="hero" className="p-4 sm:p-2 relative flex flex-col justify-center items-center bg-hero-background bg-no-repeat bg-cover text-white rounded-lg h-60 sm:h-80 md:h-96 bg-center aspect-square sm:aspect-auto overflow-hidden max-w-md mx-auto">
+                <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
+                <div className="relative z-10 text-white px-4 py-6 flex flex-col items-center justify-center h-full">
+                <h2 className="font-bold text-lg sm:text-2xl text-teal-500 text-center">
+                    Creating clean, usable user interfaces with creativity and Information Architecture expertise
+                </h2>
+                <p className="mt-2 text-xs sm:text-base text-center">
+                Welcome to my portfolio! I am an aspiring frontend developer with UX skills. With a solid foundation in HTML, CSS, and JavaScript, along with my UX knowledge, I create amazing user experiences. Always learning and keen to sharpen my expertise in various technologies as tech constantly evolves.
                 </p>
-                <Link className="py-1 px-2 text-black hover:text-teal-500" href="/projects">
-                    <Button className="bg-teal-200" text="See my projects"></Button>
-                </Link>
-            </div>
+            <Link className="py-2 px-4 text-black hover:text-teal-500 mt-4" href="/projects">
+                <Button className="bg-teal-200 text-xs sm:text-sm" text="See my projects"></Button>
+            </Link>
+                </div>
             </section>
             <section id="roles" className="flex flex-col m-x p-1 lg:flex-row justify-center items-stretch gap-20">
                 <section className="shadow-lg p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
