@@ -2,6 +2,7 @@ import { useState } from "react";
 import Input from "./Input";
 import { motion } from "framer-motion";
 import Button from "./Button";
+import emailjs from '@emailjs/browser';
 
 export default function ContactForm() {
     const [formData, setFormData] = useState({
@@ -9,6 +10,7 @@ export default function ContactForm() {
         email: '',
         message: ''
     });
+    const [status, setStatus] = useState('');
 
     function handleChange(e) {
         setFormData({
@@ -17,8 +19,30 @@ export default function ContactForm() {
         });
     }
 
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
         e.preventDefault();
+        setStatus('Submitting');
+
+        try {
+            const response = await emailjs.send(
+                'service_5gvpktk', 
+                'template_gqcukc9',   
+                {
+                    name: formData.name,
+                    email: formData.email,
+                    message: formData.message
+                },
+                'foXXH7JG5scM5JY-i'        
+            );
+
+            if(response.status === 200) {
+                setStatus("Message sent successfully!");
+                setFormData({ name: '', email: '', message: ''});
+            }
+        } catch(error) {
+            setStatus("An error occurred sending the message");
+            console.error('EmailJS error:', error);
+        }
     }
 
     return (
@@ -52,6 +76,7 @@ export default function ContactForm() {
                 rows={10}
             />
             <Button className="bg-teal-200 w-80" type="submit" text="Submit"></Button>
+            <p>{status}</p>
         </motion.form>
     );
 }
