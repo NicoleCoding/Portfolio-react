@@ -4,7 +4,7 @@ import Button from "../components/Button";
 export default function Home() {
     return (
         <section className="container mx-auto p-4 md:p-8 max-w-screen-4xl font-custom">
-            <section id="hero" className="p-4 sm:p-2 relative flex flex-col justify-center items-center bg-hero-background bg-no-repeat bg-cover text-white rounded-lg h-60 sm:h-80 md:h-96 bg-center aspect-square sm:aspect-auto overflow-hidden max-w-md mx-auto">
+            <section id="hero" className="p-0 sm:p-2 relative flex flex-col md:flex-col justify-between items-center bg-hero-background bg-no-repeat bg-cover text-white rounded-lg h-25 bg-center aspect-square sm:aspect-auto overflow-hidden">
                 <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
                 <div className="relative z-10 text-white px-4 py-6 flex flex-col items-center justify-center h-full">
                 <h2 className="font-bold text-lg sm:text-2xl text-teal-500 text-center">
