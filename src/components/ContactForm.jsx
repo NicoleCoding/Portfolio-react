@@ -75,7 +75,7 @@ export default function ContactForm() {
                 placeholder="Enter your message"
                 rows={10}
             />
-            <Button className="bg-teal-200 w-80" type="submit" text="Submit"></Button>
+            <Button className="bg-teal-200 w-11/12" type="submit" text="Submit"></Button>
             <p>{status}</p>
         </motion.form>
     );

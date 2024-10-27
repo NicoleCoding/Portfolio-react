@@ -5,26 +5,26 @@ const projectData = {
     "1": {
         title: "Hotel booking application - Palm Booking Agency",
         techStack: "React, Bootstrap, React Router, MDB React UI Kit",
-        description: "The project aimed to create a specific application for a specific use case scenario/persona. The application was developed using React.js for structure and functionality, Bootstrap for consistent styling.",
+        description: "The project aimed to create a specific application for a specific use case scenario and persona. The app was specifically designed for desktop use, so it is not adjusted to mobile and smaller screens. The project was accomplished by teamwork. The application is not completed and only contains certain pages, which are relevant for the booking process.",
         projectImage: "/prototype-hotel-app.PNG",
-        liveVersion: "",
+        liveVersion: "https://lisawiklund.github.io/",
         codeLink: "https://github.com/PalmBookingAgency/HotelApp",
     },
     "2": {
         title: "Informative application about climate change - KlimatKoll",
         techStack: "React, React Router, React Router, Chart.js, Recharts",
-        description: "The project was about creating an informative application for a specific target audience. The application contains charts which were created with the help of the Recharts library. React.js and Bootstrap were used in the development of the application.",
+        description: "The project was about creating an informative application for a specific target audience. The application contains charts and information about various topics on climate change. This was a group project within my education. The user can scroll through the application in order to explore charts and learn about climate change.",
         projectImage: "/prototype-climate-app.PNG",
-        liveVersion: "",
+        liveVersion: "https://klimatkoll.github.io/KlimatKoll-App/",
         codeLink: "https://github.com/KlimatKoll/KlimatKoll-App",
 
     },
     "3": { 
         title: "Library App - BookVault",
         techStack: "React, CSS, Vite, Axios, Node.js, Express.js, Mongoose, MongoDB Atlas",
-        description: "This is a React-based web application, which allows users to search for books, and also add books to their own collection. In the collection, users can toggle the read status and also remove books. The application gives users the opportunity to find books that they want to read and add them to a collection in case they want to read a specific book or specific books.",
+        description: "This is a full-stack web application, which allows users to search for books, and also add books to their own collection. In the collection, users can toggle the read status and also remove books. The application gives users the opportunity to find books that they want to read and add them to a collection in case they want to read a specific book or specific books. The books are stored in a database in the backend.",
         projectImage: "/library-app-img.PNG",
-        liveVersion: "",
+        liveVersion: undefined,
         codeLink: "https://github.com/NicoleCoding/BookVault",
     }
 
@@ -34,6 +34,7 @@ export default function Project() {
     const [match, params] = useRoute("/projects/:id");
     const projectID = params.id;
     const project = projectData[projectID];
+    const hasLiveVersion = project.liveVersion !== undefined;
 
     if(!project) {
         return <div>Project not found.</div>
@@ -58,7 +59,16 @@ export default function Project() {
                 />
             <div id="links" className="flex justify-center pt-4 space-x-4">
                 <a href={project.liveVersion} className="py-1 px-2 text-black hover:text-teal-500">
-                    <Button text="View live version" className="bg-teal-200"></Button>
+                    <Button className={`${hasLiveVersion ? 'bg-teal-200' : 'bg-gray-400'}`}
+                        onClick={() => {
+                            if(hasLiveVersion) {
+                                window.open(project.liveVersion, '_blank');
+                            }
+                        }}
+                        disabled={!hasLiveVersion}
+                        text={hasLiveVersion ? 'View Live Version' : 'Live Version coming soon'}
+                    >
+                    </Button>
                 </a>
                 <a href={project.codeLink} className="py-1 px-2 text-black hover:text-teal-500">
                     <Button text="View code" className="bg-teal-200"></Button>

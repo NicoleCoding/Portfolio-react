@@ -38,15 +38,15 @@ export default function ProjectCarousel() {
                 {projects.map(project => (
                     <div key={project.id} className="text-center">
                         <h3 className="mb-2 p-2 text-2xl font-semibold">{project.title}</h3>
-                        <Link href={`/projects/${project.id}`} className="py-1 px-2 text-black hover:text-teal-500">
-                            <Button className="bg-teal-200" text="View details"></Button>
-                        </Link>
                         <img src={project.projectImage} alt={project.title} width="1000rem" className="mx-auto p-2"
                          onError={(e) => {
                             console.error('Image failed to load:', project.projectImage);
                             e.target.style.display = 'none'; // Hide broken image
                           }}
                         />
+                        <Link href={`/projects/${project.id}`} className="py-1 px-2 text-black hover:text-teal-500">
+                            <Button className="bg-teal-200 m-2" text="View project details"></Button>
+                        </Link>
                     </div>
                 ))}
             </Slider>
