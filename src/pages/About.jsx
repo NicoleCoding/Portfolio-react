@@ -11,11 +11,11 @@ export default function About() {
                 <h3 className="text-2xl m-1">Who I am</h3>
                 <p className="m-3 w-4/5 text-left leading-relaxed">My name is Nicole and I am recent graduate in Information architecture with a passion for development of various types of software, especially within the web. Through my degree
                     I acquired a solid foundation in structuring and designing digital environments. My education has equipped me with a deep understanding of user experience principles, 
-                    information organization, and the latest web technologies. 
+                    information organization, and the latest web technologies. In addition, I try to learn something new everyday in order to develop my skills. By working on projects regularly, I keep my skills sharp and relevant.
                 </p>
                 <h3 className="text-2xl m-1">What I want to achieve</h3>
                 <p className="m-3 w-4/5 text-left leading-relaxed pb-10">Bringing skills and enthusiasm to a dynamic team, where I can contribute to creating exceptional user experiences and innovative web solutions, is something I look forward to.
-                    My goal is to work in a role, that allows me to combine my design capabilities with my technical knowledge to solve real-world problems and enhance user experiences.</p>
+                    My goal is to work in a role, that allows me to combine my design capabilities with my technical knowledge to solve real-world problems and enhance user experiences. I am also working towards becoming a fullstack-developer in order to be able to create both frontends and backends for projects.</p>
             </section>
             <section className="relative bg-skills-background bg-no-repeat bg-cover m-4 sm:mx-auto p-4 md:p-8 max-w-screen-sm sm:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl rounded-lg">
                 <div className="absolute inset-0 bg-black opacity-45 rounded-lg"></div>
@@ -26,6 +26,7 @@ export default function About() {
                         <li>CSS3</li>
                         <li>JavaScript</li>
                         <li>React.js</li>
+                        <li>Agile development</li>
                         <li>Git</li>
                         <li>UX-design</li>
                         <li>Adobe PhotoShop</li>

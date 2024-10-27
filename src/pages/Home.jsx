@@ -32,10 +32,12 @@ export default function Home() {
 
                 </section>
                 <section className="shadow-lg p-6 mx-auto lg:mx-0 rounded-lg w-80 text-center flex flex-col justify-start">
-                    <h3 className="text-2xl mb-4 mt-0">Content Management</h3>
-                    <p className="p-2 m-0">In addition I posess skills in Content Management and SEO. Using HTML5 and SEO principles, I create strategies for high-ranking, visible websites. 
-                        I apply Information Architecture to make content clear and accessible.
-                    </p>
+                    <h3 className="text-2xl mb-4 mt-0">Reach out</h3>
+                    <p className="p-2 m-0">Interested in collaboration or got questions? Feel free to reach out!</p>
+                    <p className="p-2 m-0">For project inquiries, please provide a brief overview of your needs, and I'll get back to you with potential solutions.</p>
+                    <Link className="py-1 px-2 text-black hover:text-teal-500" href="/contact">
+                    <Button className="bg-teal-200" text="Contact me"></Button>
+                </Link>
                 </section>
             </section>
     
