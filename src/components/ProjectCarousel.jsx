@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import { Link } from "wouter";
 import Button from "./Button";
+import '../custom-carousel.css'; 
 
 const projects = [{
     id: "1",

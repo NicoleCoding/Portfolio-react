@@ -1,0 +1,26 @@
+
+.slick-prev,
+.slick-next {
+    opacity: 1 !important; /* Make sure arrows are visible */
+    color: #000; /* Change arrow color */
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #000; /* Change default arrow color */
+}
+
+.slick-prev {
+    left: 10px; /* Adjust position */
+}
+
+.slick-next {
+    right: 10px; /* Adjust position */
+}
+
+@media (max-width: 768px) {
+    .slick-prev,
+    .slick-next {
+        display: none !important; /* Hide arrows on mobile */
+    }
+}
