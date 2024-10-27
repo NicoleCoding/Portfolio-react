@@ -6,7 +6,7 @@ const projectData = {
         title: "Hotel booking application - Palm Booking Agency",
         techStack: "React, Bootstrap, React Router, MDB React UI Kit",
         description: "The project aimed to create a specific application for a specific use case scenario and persona. The app was specifically designed for desktop use, so it is not adjusted to mobile and smaller screens. The project was accomplished by teamwork. The application is not completed and only contains certain pages, which are relevant for the booking process.",
-        projectImage: "/prototype-hotel-app.PNG",
+        projectImage: "/Portfolio-site/prototype-hotel-app.PNG",
         liveVersion: "https://lisawiklund.github.io/hotell-app-20244/",
         codeLink: "https://github.com/PalmBookingAgency/HotelApp",
     },
@@ -14,7 +14,7 @@ const projectData = {
         title: "Informative application about climate change - KlimatKoll",
         techStack: "React, React Router, React Router, Chart.js, Recharts",
         description: "The project was about creating an informative application for a specific target audience. The application contains charts and information about various topics on climate change. This was a group project within my education. The user can scroll through the application in order to explore charts and learn about climate change.",
-        projectImage: "/prototype-climate-app.PNG",
+        projectImage: "/Portfolio-site/prototype-climate-app.PNG",
         liveVersion: "https://klimatkoll.github.io/KlimatKoll-App/",
         codeLink: "https://github.com/KlimatKoll/KlimatKoll-App",
 
@@ -23,7 +23,7 @@ const projectData = {
         title: "Library App - BookVault",
         techStack: "React, CSS, Vite, Axios, Node.js, Express.js, Mongoose, MongoDB Atlas",
         description: "This is a full-stack web application, which allows users to search for books, and also add books to their own collection. In the collection, users can toggle the read status and also remove books. The application gives users the opportunity to find books that they want to read and add them to a collection in case they want to read a specific book or specific books. The books are stored in a database in the backend.",
-        projectImage: "/library-app-img.PNG",
+        projectImage: "/Portfolio-site/library-app-img.PNG",
         liveVersion: undefined,
         codeLink: "https://github.com/NicoleCoding/BookVault",
     }
