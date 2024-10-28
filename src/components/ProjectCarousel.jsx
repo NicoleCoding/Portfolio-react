@@ -6,17 +6,17 @@ import '../custom-carousel.css';
 const projects = [{
     id: "1",
     title: "Hotel booking application - Palm Booking Agency",
-    projectImage: "https://nicolecoding.github.io/Portfolio-site/prototype-hotel-app.PNG"
+    projectImage: "https://nicolecoding.github.io/Portfolio-site/prototype-hotel-app.png"
 },
 {   
     id: "2",
     title: "Informative application about climate change - KlimatKoll",
-    projectImage: "https://nicolecoding.github.io/Portfolio-site/prototype-climate-app.PNG"
+    projectImage: "https://nicolecoding.github.io/Portfolio-site/prototype-climate-app.png"
 },
 {
     id: "3",
     title: "Library App - BookVault",
-    projectImage: "https://nicolecoding.github.io/Portfolio-site/library-app-img.PNG"
+    projectImage: "https://nicolecoding.github.io/Portfolio-site/library-app-img.png"
 
 }
 ];
