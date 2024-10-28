@@ -6,12 +6,12 @@ import '../custom-carousel.css';
 const projects = [{
     id: "1",
     title: "Hotel booking application - Palm Booking Agency",
-    projectImage: "public/prototype-hotel-app.png"
+    projectImage: "public/prototype-hotel-app.PNG"
 },
 {   
     id: "2",
     title: "Informative application about climate change - KlimatKoll",
-    projectImage: "public/prototype-climate-app.png"
+    projectImage: "public/prototype-climate-app.PNG"
 },
 {
     id: "3",
