@@ -12,10 +12,10 @@ import { Switch, Router, Route } from "wouter";
 function App() {
 
   return (
-    <div className="min-h-screen flex flex-col w-screen">
+    <div className="min-h-screen flex flex-col w-full">
      <Header />
      <Router>
-        <main className="flex-grow pt-6 px-4 md:px-0">
+        <main className="flex-grow pt-6 px-4 md:px-0 py-0">
         <Switch>
           <Route path="/" component={Home}/>
           <Route path="/projects" component={Projects}/>
