@@ -9,7 +9,7 @@ export default function Contact() {
                 <PiEnvelope className="text-teal-500 m-1" size={40}/>
             </div>
             <p className="p-4">If you have any questions or are interested in collaboration, you can contact me through the below contact form.
-                I will respond within 24 hours to your message.
+                I will respond to your message within 24 hours.
             </p>
             <ContactForm></ContactForm>
         </section>
